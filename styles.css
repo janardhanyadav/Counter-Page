@@ -1,0 +1,41 @@
+body{
+    color: rgb(243, 241, 241);
+    background-color: black;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#container{
+    width: 40%;
+    margin-left: 40px;
+}
+span{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+#count{
+    font-weight: 600;
+}
+#message{
+    color: rgb(255, 71, 71);
+    font-size: 15px;
+    margin-top: 10px;
+}
+#btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 30%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#clr{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
+}
+.hide{
+    display: none;
+}
